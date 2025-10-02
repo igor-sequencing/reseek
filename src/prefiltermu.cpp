@@ -418,8 +418,8 @@ void PrefilterMu::LogQueryKmers(uint QSeqIdx) const
 void PrefilterMu::LogTargetKmers() const
 	{
 	Log("\n");
-	Log("PrefilterMu::LogTargetKmers() TL=%u >%s\n", 
-		m_TL, m_TLabel);
+	Log("PrefilterMu::LogTargetKmers() TL=%u >%s\n",
+		m_TL, m_TLabel.c_str());
 	for (uint PosT = 0; PosT + k <= m_TL; ++PosT)
 		{
 		uint Kmer = m_QKmerIndex->BytesToKmer(m_TSeq + PosT);

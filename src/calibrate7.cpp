@@ -54,7 +54,7 @@ void cmd_calibrate7()
 	QF.WriteMe(f);
 	QF.WriteMe(stderr);
 
-	Binner B(DBS.m_TSVec, 21, 0.0f, 0.1f);
+	Binner<float> B(DBS.m_TSVec, 21, 0.0f, 0.1f);
 	B.ToTsv(f);
 	B.AccumToTsv(f);
 	B.AccumToTsvReverse(f);

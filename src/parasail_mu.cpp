@@ -91,7 +91,7 @@ float DSSAligner::AlignMuQP_Para_Path(uint &LoA, uint &LoB, string &Path)
 
 	StartTimer(SWPara);
 	parasail_result_t* result =
-	  parasail_sw_trace_striped_profile_avx2_256_8(profile, B, LB, Open, Ext);
+	  parasail_sw_trace_striped_profile_256_8(profile, B, LB, Open, Ext);
 	EndTimer(SWPara);
 
 	float Score = (float) result->score;
@@ -131,7 +131,7 @@ float DSSAligner::AlignMuQP_Para()
 	const parasail_profile_t * const restrict profile =
 	  (const parasail_profile_t * const restrict) m_ProfPara;
 	parasail_result_t* result =
-	  parasail_sw_striped_profile_avx2_256_8(profile, B, LB, Open, Ext);
+	  parasail_sw_striped_profile_256_8(profile, B, LB, Open, Ext);
 	if (result->flag & PARASAIL_FLAG_SATURATED)
 		{
 		++m_ParasailSaturateCount;
@@ -148,7 +148,7 @@ float DSSAligner::AlignMuQP_Para()
 	const parasail_profile_t * const restrict profile_rev =
 	  (const parasail_profile_t * const restrict) m_ProfParaRev;
 	parasail_result_t* result_rev =
-	  parasail_sw_striped_profile_avx2_256_8(profile_rev, B, LB, Open, Ext);
+	  parasail_sw_striped_profile_256_8(profile_rev, B, LB, Open, Ext);
 	float rev_score = (float) result_rev->score;
 
 	EndTimer(SWPara);
@@ -169,14 +169,14 @@ void DSSAligner::SetMuQP_Para()
 		parasail_profile_free((parasail_profile_t *) m_ProfParaRev);
 	const char *A = (const char *) m_MuLettersA->data();
 	const uint LA = SIZE(*m_MuLettersA);
-	m_ProfPara = parasail_profile_create_avx_256_8(A, LA, &parasail_mu_matrix);
+	m_ProfPara = parasail_profile_create_256_8(A, LA, &parasail_mu_matrix);
 
 	m_MuRevA.clear();
 	m_MuRevA.reserve(LA);
 	for (uint i = 0; i < LA; ++i)
 		m_MuRevA.push_back((*m_MuLettersA)[LA-i-1]);
 	const char *AR = (const char *) m_MuRevA.data();
-	m_ProfParaRev = parasail_profile_create_avx_256_8(AR, LA, &parasail_mu_matrix);
+	m_ProfParaRev = parasail_profile_create_256_8(AR, LA, &parasail_mu_matrix);
 	EndTimer(SetMuQP_Para);
 	}
 
@@ -198,7 +198,7 @@ float DSSAligner::AlignMuParaBags(const ChainBag &BagA, const ChainBag &BagB)
 	const parasail_profile_t * const restrict profile =
 	  (const parasail_profile_t * const restrict) BagA.m_ptrProfPara;
 	parasail_result_t* result =
-	  parasail_sw_striped_profile_avx2_256_8(profile, B, LB, Open, Ext);
+	  parasail_sw_striped_profile_256_8(profile, B, LB, Open, Ext);
 	if (result->flag & PARASAIL_FLAG_SATURATED)
 		{
 		++m_ParasailSaturateCount;
@@ -214,7 +214,7 @@ float DSSAligner::AlignMuParaBags(const ChainBag &BagA, const ChainBag &BagB)
 	const parasail_profile_t * const restrict profile_rev =
 	  (const parasail_profile_t * const restrict) BagA.m_ptrProfParaRev;
 	parasail_result_t* result_rev =
-	  parasail_sw_striped_profile_avx2_256_8(profile_rev, B, LB, Open, Ext);
+	  parasail_sw_striped_profile_256_8(profile_rev, B, LB, Open, Ext);
 	float rev_score = (float) result_rev->score;
 
 	EndTimer(SWPara);

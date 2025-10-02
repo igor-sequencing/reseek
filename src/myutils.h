@@ -1,7 +1,7 @@
 #ifndef myutils_h
 #define myutils_h
 
-#if defined(__x86_64__) || defined(_M_X64)
+#if defined(__x86_64__) || defined(_M_X64) || defined(__aarch64__) || defined(__arm64__)
 #define	BITS			64
 #else
 #define	BITS			32

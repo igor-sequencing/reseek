@@ -105,13 +105,13 @@ static void Test1()
 	const char *s2 = (const char *) S2.data();
 	
 	const parasail_profile_t* profile1 = 
-	  parasail_profile_create_avx_256_8(s1, s1Len, &parasail_mu_matrix);
+	  parasail_profile_create_256_8(s1, s1Len, &parasail_mu_matrix);
 	
 	parasail_result_t *result1 =
-	  parasail_sw_striped_profile_avx2_256_8(profile1, s2, s2Len, open, ext);
+	  parasail_sw_striped_profile_256_8(profile1, s2, s2Len, open, ext);
 
 	parasail_result_t *result2 =
-	  parasail_sw_trace_striped_profile_avx2_256_8(profile1, s2, s2Len, open, ext);
+	  parasail_sw_trace_striped_profile_256_8(profile1, s2, s2Len, open, ext);
 
 	const parasail_result_extra_trace_t *trace = result2->trace;
 	parasail_cigar_t* cig = parasail_result_get_cigar_extra(result2, s1, s1Len, s2, s2Len,
@@ -182,10 +182,10 @@ int ParasailAlign(const vector<byte> &Q, const vector<byte> &T,
 	const char *ptrT = (const char *) T.data();
 
 	parasail_profile_t *QP = 
-	  parasail_profile_create_avx_256_8(ptrQ, QL, &parasail_mu_matrix);
+	  parasail_profile_create_256_8(ptrQ, QL, &parasail_mu_matrix);
 
 	parasail_result_t *result =
-	  parasail_sw_trace_striped_profile_avx2_256_8(QP, ptrT, TL, GapOpen, GapExt);
+	  parasail_sw_trace_striped_profile_256_8(QP, ptrT, TL, GapOpen, GapExt);
 	int score = result->score;
 	if (parasail_result_is_saturated(result))
 		{
@@ -244,13 +244,13 @@ static void Test2(bool Trace)
 	const char *s2 = (const char *) S2.data();
 	
 	parasail_profile_t* profile1 = 
-	  parasail_profile_create_avx_256_8(s1, s1Len, &parasail_mu_matrix);
+	  parasail_profile_create_256_8(s1, s1Len, &parasail_mu_matrix);
 	
 	parasail_result_t *result1 =
-	  parasail_sw_striped_profile_avx2_256_8(profile1, s2, s2Len, open, ext);
+	  parasail_sw_striped_profile_256_8(profile1, s2, s2Len, open, ext);
 
 	parasail_result_t *result2 =
-	  parasail_sw_trace_striped_profile_avx2_256_8(profile1, s2, s2Len, open, ext);
+	  parasail_sw_trace_striped_profile_256_8(profile1, s2, s2Len, open, ext);
 
 	const parasail_result_extra_trace_t *trace = result2->trace;
 	parasail_cigar_t* cig = parasail_result_get_cigar_extra(result2, s1, s1Len, s2, s2Len,

@@ -1,0 +1,77 @@
+# Makefile for compiling individual test executables
+
+# Detect architecture
+UNAME_M := $(shell uname -m)
+UNAME_S := $(shell uname -s)
+
+# Common settings
+CXX = g++
+CXXFLAGS = -O3 -pthread -std=c++17 -Wall -DNDEBUG
+LDFLAGS = -lz -lpthread
+
+# Architecture-specific flags
+ifeq ($(UNAME_M),x86_64)
+    CXXFLAGS += -mavx2 -mfma
+else ifeq ($(UNAME_M),arm64)
+    CXXFLAGS += -march=armv8-a+simd -D__ARM_NEON
+else ifeq ($(UNAME_M),aarch64)
+    CXXFLAGS += -march=armv8-a+simd -D__ARM_NEON
+endif
+
+# macOS specific settings
+ifeq ($(UNAME_S),Darwin)
+    CXX = clang++
+    CXXFLAGS += -stdlib=libc++
+endif
+
+# Core object files needed by tests (exclude main programs)
+CORE_OBJS = parasail.o parasail_mu.o parasail_cigar.o cigar.o myutils.o global.o \
+           timing.o mymalloc_gcc.o objcounter.o gzipfileio.o linereader.o \
+           mx.o alpha.o mu_mapping.o mumx.o mumx_data.o dss.o dssaligner.o \
+           dssparams.o features.o viterbifastmem.o pdbchain.o \
+           float_feature_bins.o mermx.o usage.o
+
+# Test executables
+TEST_PROGRAMS = test_para test_para_cal test_para_path test_chrono_ticks test_xdrop
+CUSTOM_TESTS = raw_neon_test
+
+all: $(TEST_PROGRAMS) $(CUSTOM_TESTS)
+
+# Individual test program rules
+test_para: test_para.o $(CORE_OBJS)
+	$(CXX) $^ $(LDFLAGS) -o $@
+
+test_para_cal: test_para_cal.o $(CORE_OBJS)
+	$(CXX) $^ $(LDFLAGS) -o $@
+
+test_para_path: test_para_path.o $(CORE_OBJS)
+	$(CXX) $^ $(LDFLAGS) -o $@
+
+test_chrono_ticks: test_chrono_ticks.o $(CORE_OBJS)
+	$(CXX) $^ $(LDFLAGS) -o $@
+
+test_xdrop: test_xdrop.o $(CORE_OBJS)
+	$(CXX) $^ $(LDFLAGS) -o $@
+
+# Custom test programs (standalone)
+raw_neon_test: raw_neon_test.cpp
+	$(CXX) $(CXXFLAGS) $< -o $@
+
+# Skip simple_neon_test as it has dependency issues
+
+# Generic rule for .o files
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Run all tests
+test: $(TEST_PROGRAMS) $(CUSTOM_TESTS)
+	@echo "Running NEON intrinsics tests..."
+	./raw_neon_test
+	@echo "Running parasail tests..."
+	./test_para
+	@echo "All tests completed!"
+
+clean:
+	rm -f $(TEST_PROGRAMS) $(CUSTOM_TESTS)
+
+.PHONY: all test clean

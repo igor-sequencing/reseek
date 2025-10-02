@@ -39,11 +39,11 @@ public:
 	uint m_NextQueryIdx = UINT_MAX;
 	uint m_NextDBIdx = UINT_MAX;
 
-	atomic<uint> m_ProcessedQueryCount = 0;
-	atomic<uint> m_ProcessedPairCount = 0;
-	atomic<uint> m_HitCount = 0;
-	atomic<uint> m_QPCacheHits = 0;
-	atomic<uint> m_QPCacheMisses = 0;
+	atomic<uint> m_ProcessedQueryCount{0};
+	atomic<uint> m_ProcessedPairCount{0};
+	atomic<uint> m_HitCount{0};
+	atomic<uint> m_QPCacheHits{0};
+	atomic<uint> m_QPCacheMisses{0};
 
 	uint m_FilterRejects = 0;
 	uint m_XAlignCount = 0;

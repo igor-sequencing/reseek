@@ -51,7 +51,7 @@ static int GetOmega(const vector<byte> &MuLettersT, uint QueryIdx)
 	const int OmegaFwd = 50;
 
 	parasail_result_t* fwd_result =
-	  parasail_sw_striped_profile_avx2_256_8(ParaProf, T, LT, Open, Ext);
+	  parasail_sw_striped_profile_256_8(ParaProf, T, LT, Open, Ext);
 	if (fwd_result->flag & PARASAIL_FLAG_SATURATED)
 		fwd_result->score = 777;
 	int fwd_score = fwd_result->score;
@@ -63,7 +63,7 @@ static int GetOmega(const vector<byte> &MuLettersT, uint QueryIdx)
 	asserta(QueryIdx < SIZE(s_QueryIdxToParaProfRev));
 	parasail_profile_t *ParaProfRev = s_QueryIdxToParaProfRev[QueryIdx];
 	parasail_result_t* rev_result =
-	  parasail_sw_striped_profile_avx2_256_8(ParaProfRev, T, LT, Open, Ext);
+	  parasail_sw_striped_profile_256_8(ParaProfRev, T, LT, Open, Ext);
 	if (rev_result->flag & PARASAIL_FLAG_SATURATED)
 		rev_result->score = 777;
 	int rev_score = rev_result->score;
@@ -497,10 +497,10 @@ uint MuFilter(const DSSParams &Params,
 		const char *QMuRev = (const char *) MuLettersRev.data();
 
 		parasail_profile_t *Prof =
-			parasail_profile_create_avx_256_8(QMu, QL, &parasail_combo_matrix);
+			parasail_profile_create_256_8(QMu, QL, &parasail_combo_matrix);
 
 		parasail_profile_t *ProfRev =
-			parasail_profile_create_avx_256_8(QMuRev, QL, &parasail_combo_matrix);
+			parasail_profile_create_256_8(QMuRev, QL, &parasail_combo_matrix);
 
 		s_QueryIdxToParaProf[QueryIdx] = Prof;
 		s_QueryIdxToParaProfRev[QueryIdx] = ProfRev;

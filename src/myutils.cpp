@@ -34,16 +34,18 @@
 
 bool IsDirectory(const string& PathName)
 {
-	std::error_code ec;
-	bool IsDir = std::filesystem::is_directory(PathName);
-	return IsDir;
+	struct stat statbuf;
+	if (stat(PathName.c_str(), &statbuf) != 0)
+		return false;
+	return S_ISDIR(statbuf.st_mode);
 }
 
 bool IsRegularFile(const string& PathName)
 {
-	std::error_code ec;
-	bool IsFile = std::filesystem::is_regular_file(PathName);
-	return IsFile;
+	struct stat statbuf;
+	if (stat(PathName.c_str(), &statbuf) != 0)
+		return false;
+	return S_ISREG(statbuf.st_mode);
 }
 
 const int SIZE_16 = 16;
@@ -92,9 +94,17 @@ const char *GetPlatform()
 #ifdef _MSC_VER
 	return "win64";
 #elif defined(__APPLE__)
+  #if defined(__aarch64__) || defined(__arm64__)
+	return "arm64osx";
+  #else
 	return "i86osx64";
+  #endif
 #elif defined(__GNUC__)
+  #if defined(__aarch64__) || defined(__arm64__)
+	return "arm64linux";
+  #else
 	return "i86linux64";
+  #endif
 #else
 #error "Unknown compiler"
 #endif

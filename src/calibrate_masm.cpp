@@ -100,7 +100,7 @@ void cmd_calibrate_masm()
 			}
 
 		Binner<float> *B =
-		  new Binner(Scores, g_BinCount, g_MinScore, g_MaxScore);
+		  new Binner<float>(Scores, g_BinCount, g_MinScore, g_MaxScore);
 
 		if (!HdrDone)
 			{

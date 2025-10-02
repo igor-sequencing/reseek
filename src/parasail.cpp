@@ -68,7 +68,7 @@ void parasail_free(void *ptr)
 #endif
 }
 
-parasail_profile_t * parasail_profile_create_avx_256_8(
+parasail_profile_t * parasail_profile_create_256_8(
         const char * const restrict s1, const int _s1Len,
         const parasail_matrix_t *matrix)
 {
@@ -156,7 +156,7 @@ parasail_result_t* parasail_result_new_trace(const int a, const int b, const siz
     return result;
 }
 
-parasail_result_t* parasail_sw_trace_striped_profile_avx2_256_8(
+parasail_result_t* parasail_sw_trace_striped_profile_256_8(
         const parasail_profile_t * const restrict profile,
         const char * const restrict s2, const int s2Len,
         const int open, const int gap)
@@ -512,7 +512,7 @@ end:
     return result;
 }
 
-parasail_result_t* parasail_sw_striped_profile_avx2_256_8(
+parasail_result_t* parasail_sw_striped_profile_256_8(
         const parasail_profile_t * const restrict profile,
         const char * const restrict s2, const int s2Len,
         const int open, const int gap)
