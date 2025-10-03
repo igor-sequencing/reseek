@@ -9,12 +9,15 @@ echo "=== Building reseek with native Makefile ==="
 echo
 
 # Show detected configuration
-make info
+echo "Platform: $(uname -s)"
+echo "Architecture: $(uname -m)"
+echo "Compiler: ${CC:-gcc}/${CXX:-g++}"
+echo "CPU cores: $(sysctl -n hw.ncpu 2>/dev/null || nproc 2>/dev/null || echo 4)"
 echo
 
-# Clean and build
-make clean
-make -j$(sysctl -n hw.ncpu 2>/dev/null || nproc 2>/dev/null || echo 4)
+# Clean and build using the generated makefile
+make -f Makefile.generated clean || true
+make -f Makefile.generated -j$(sysctl -n hw.ncpu 2>/dev/null || nproc 2>/dev/null || echo 4)
 
 echo
 echo "=== Build complete ==="
