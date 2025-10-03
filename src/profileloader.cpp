@@ -98,7 +98,7 @@ void ProfileLoader::Load(
 	vector<thread *> ts;
 	for (uint ThreadIndex = 0; ThreadIndex < ThreadCount; ++ThreadIndex)
 		{
-		thread *t = new thread(StaticThreadBody, ThreadIndex, this);
+		thread *t = new thread([=]() { StaticThreadBody(ThreadIndex, this); });
 		ts.push_back(t);
 		}
 	for (uint ThreadIndex = 0; ThreadIndex < ThreadCount; ++ThreadIndex)

@@ -265,7 +265,7 @@ void PostMuFilter(const DSSParams &Params,
 	vector<thread *> ts;
 	for (uint ThreadIndex = 0; ThreadIndex < ThreadCount; ++ThreadIndex)
 		{
-		thread *t = new thread(ThreadBody_IndexQuery, ThreadIndex);
+		thread *t = new thread([ThreadIndex]() { ThreadBody_IndexQuery(ThreadIndex); });
 		ts.push_back(t);
 		}
 	for (uint ThreadIndex = 0; ThreadIndex < ThreadCount; ++ThreadIndex)
@@ -282,7 +282,7 @@ void PostMuFilter(const DSSParams &Params,
 	ts.clear();
 	for (uint ThreadIndex = 0; ThreadIndex < ThreadCount; ++ThreadIndex)
 		{
-		thread *t = new thread(ThreadBody_Scan, ThreadIndex);
+		thread *t = new thread([ThreadIndex]() { ThreadBody_Scan(ThreadIndex); });
 		ts.push_back(t);
 		}
 	for (uint ThreadIndex = 0; ThreadIndex < ThreadCount; ++ThreadIndex)

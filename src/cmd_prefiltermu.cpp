@@ -97,7 +97,7 @@ void cmd_prefilter_mu()
 	uint ThreadCount = GetRequestedThreadCount();
 	for (uint ThreadIndex = 0; ThreadIndex < ThreadCount; ++ThreadIndex)
 		{
-		thread *t = new thread(ThreadBody, ThreadIndex);
+		thread *t = new thread([ThreadIndex]() { ThreadBody(ThreadIndex); });
 		ts.push_back(t);
 		}
 	for (uint ThreadIndex = 0; ThreadIndex < ThreadCount; ++ThreadIndex)

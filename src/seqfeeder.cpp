@@ -75,7 +75,7 @@ void SeqFeeder::Start(uint ThreadCount)
 		m_OMLocks[ThreadIndex] = new mymutex;
 		}
 
-	thread *t = new thread(Static_ThreadBody, this);
+	thread *t = new thread([this]() { Static_ThreadBody(this); });
 	}
 
 void SeqFeeder::Down(uint ThreadIndex, SeqInfo *SI)

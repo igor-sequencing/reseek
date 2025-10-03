@@ -510,7 +510,7 @@ uint MuFilter(const DSSParams &Params,
 	vector<thread *> ts;
 	for (uint ThreadIndex = 0; ThreadIndex < ThreadCount; ++ThreadIndex)
 		{
-		thread *t = new thread(ThreadBody, ThreadIndex, &Params, &FSS, &MD);
+		thread *t = new thread([&, ThreadIndex]() { ThreadBody(ThreadIndex, &Params, &FSS, &MD); });
 		ts.push_back(t);
 		}
 	for (uint ThreadIndex = 0; ThreadIndex < ThreadCount; ++ThreadIndex)

@@ -118,7 +118,7 @@ uint MuPreFilter(const DSSParams &Params,
 	vector<thread *> ts;
 	for (uint ThreadIndex = 0; ThreadIndex < ThreadCount; ++ThreadIndex)
 		{
-		thread *t = new thread(ThreadBody_Filter, ThreadIndex);
+		thread *t = new thread([ThreadIndex]() { ThreadBody_Filter(ThreadIndex); });
 		ts.push_back(t);
 		}
 	for (uint ThreadIndex = 0; ThreadIndex < ThreadCount; ++ThreadIndex)
