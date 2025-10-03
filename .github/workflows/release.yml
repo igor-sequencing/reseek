@@ -74,7 +74,7 @@ jobs:
         ls -la reseek-${{ matrix.target }}.tar.gz
 
     - name: Upload release artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: reseek-${{ matrix.target }}
         path: bin/reseek-${{ matrix.target }}.tar.gz

@@ -1,0 +1,9 @@
+
+_____________________________________________________________________________________________________________
+    1 MALKE--AVLIDEFRTGHIKLDAG---VLN 25  protein1_A
+      |||||  |||||||||||||||||      
+    1 MALKEPGAVLIDEFRTGHIKLDAGVLNWYE 30  protein3_A
+
+protein1_A 1-25 length 25
+protein3_A 1-30 length 30
+AQ 0.6748, cols 30, gaps 5 (16.7%), ids 22 (73.3%)

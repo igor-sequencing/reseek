@@ -1,0 +1,9 @@
+
+_____________________________________________________________________________________________________________
+    1 MALKEPGAVLIDEFRTGHIKLDAGVLNWYE 30  protein3_A
+      ||||||||||||||||||||||||||||||
+    1 MALKEPGAVLIDEFRTGHIKLDAGVLNWYE 30  protein3_A
+
+protein3_A 1-30 length 30
+protein3_A 1-30 length 30
+AQ 0.9298, cols 30, gaps 0 (0.0%), ids 30 (100.0%), E-value 2.58e-07

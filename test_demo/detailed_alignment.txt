@@ -1,0 +1,9 @@
+
+_____________________________________________________________________________________________________________
+    1 MALKEAVLIDEFRTGHIKLDAGVLN 25  protein1_A
+      ||||| |||| ||||| ||||||||
+    1 MALKESVLIDQFRTGHVKLDAGVLN 25  protein2_A
+
+protein1_A 1-25 length 25
+protein2_A 1-25 length 28
+AQ 0.7568, cols 25, gaps 0 (0.0%), ids 22 (88.0%)
