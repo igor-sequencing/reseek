@@ -4,16 +4,10 @@
  */
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++
-// FOLLOWING THREE DELARATIONS ADDED BY ROBERT EDGAR
-// to suppress implicit declarations warnings from gcc
-long lseek();
-#if _MSC_VER
-int read();
-#else
+// FOLLOWING DECLARATIONS MODIFIED FOR MODERN C COMPATIBILITY
+// Include proper headers instead of manual declarations
+#include <unistd.h>
 #include <stddef.h>
-size_t read();
-#endif
-int close();
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 #ifdef _LARGEFILE64_SOURCE
