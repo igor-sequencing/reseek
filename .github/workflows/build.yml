@@ -17,10 +17,6 @@ jobs:
             arch: x86_64
             cc: gcc-11
             cxx: g++-11
-          - os: ubuntu-20.04
-            arch: x86_64
-            cc: clang-12
-            cxx: clang++-12
 
           # macOS builds
           - os: macos-13
