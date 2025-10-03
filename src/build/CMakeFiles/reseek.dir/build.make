@@ -1892,24 +1892,10 @@ CMakeFiles/reseek.dir/rankedscoresbag.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/reseek.dir/rankedscoresbag.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/igortolstoy/Projects/reseek/src/rankedscoresbag.cpp -o CMakeFiles/reseek.dir/rankedscoresbag.cpp.s
 
-CMakeFiles/reseek.dir/raw_neon_test.cpp.o: CMakeFiles/reseek.dir/flags.make
-CMakeFiles/reseek.dir/raw_neon_test.cpp.o: /Users/igortolstoy/Projects/reseek/src/raw_neon_test.cpp
-CMakeFiles/reseek.dir/raw_neon_test.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/reseek.dir/raw_neon_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/raw_neon_test.cpp.o -MF CMakeFiles/reseek.dir/raw_neon_test.cpp.o.d -o CMakeFiles/reseek.dir/raw_neon_test.cpp.o -c /Users/igortolstoy/Projects/reseek/src/raw_neon_test.cpp
-
-CMakeFiles/reseek.dir/raw_neon_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/reseek.dir/raw_neon_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/igortolstoy/Projects/reseek/src/raw_neon_test.cpp > CMakeFiles/reseek.dir/raw_neon_test.cpp.i
-
-CMakeFiles/reseek.dir/raw_neon_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/reseek.dir/raw_neon_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/igortolstoy/Projects/reseek/src/raw_neon_test.cpp -o CMakeFiles/reseek.dir/raw_neon_test.cpp.s
-
 CMakeFiles/reseek.dir/readchains.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/readchains.cpp.o: /Users/igortolstoy/Projects/reseek/src/readchains.cpp
 CMakeFiles/reseek.dir/readchains.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/reseek.dir/readchains.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/reseek.dir/readchains.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/readchains.cpp.o -MF CMakeFiles/reseek.dir/readchains.cpp.o.d -o CMakeFiles/reseek.dir/readchains.cpp.o -c /Users/igortolstoy/Projects/reseek/src/readchains.cpp
 
 CMakeFiles/reseek.dir/readchains.cpp.i: cmake_force
@@ -1923,7 +1909,7 @@ CMakeFiles/reseek.dir/readchains.cpp.s: cmake_force
 CMakeFiles/reseek.dir/readhits.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/readhits.cpp.o: /Users/igortolstoy/Projects/reseek/src/readhits.cpp
 CMakeFiles/reseek.dir/readhits.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/reseek.dir/readhits.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/reseek.dir/readhits.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/readhits.cpp.o -MF CMakeFiles/reseek.dir/readhits.cpp.o.d -o CMakeFiles/reseek.dir/readhits.cpp.o -c /Users/igortolstoy/Projects/reseek/src/readhits.cpp
 
 CMakeFiles/reseek.dir/readhits.cpp.i: cmake_force
@@ -1937,7 +1923,7 @@ CMakeFiles/reseek.dir/readhits.cpp.s: cmake_force
 CMakeFiles/reseek.dir/reseek_main.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/reseek_main.cpp.o: /Users/igortolstoy/Projects/reseek/src/reseek_main.cpp
 CMakeFiles/reseek.dir/reseek_main.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/reseek.dir/reseek_main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/reseek.dir/reseek_main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/reseek_main.cpp.o -MF CMakeFiles/reseek.dir/reseek_main.cpp.o.d -o CMakeFiles/reseek.dir/reseek_main.cpp.o -c /Users/igortolstoy/Projects/reseek/src/reseek_main.cpp
 
 CMakeFiles/reseek.dir/reseek_main.cpp.i: cmake_force
@@ -1951,7 +1937,7 @@ CMakeFiles/reseek.dir/reseek_main.cpp.s: cmake_force
 CMakeFiles/reseek.dir/runquery.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/runquery.cpp.o: /Users/igortolstoy/Projects/reseek/src/runquery.cpp
 CMakeFiles/reseek.dir/runquery.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/reseek.dir/runquery.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/reseek.dir/runquery.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/runquery.cpp.o -MF CMakeFiles/reseek.dir/runquery.cpp.o.d -o CMakeFiles/reseek.dir/runquery.cpp.o -c /Users/igortolstoy/Projects/reseek/src/runquery.cpp
 
 CMakeFiles/reseek.dir/runquery.cpp.i: cmake_force
@@ -1965,7 +1951,7 @@ CMakeFiles/reseek.dir/runquery.cpp.s: cmake_force
 CMakeFiles/reseek.dir/runself.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/runself.cpp.o: /Users/igortolstoy/Projects/reseek/src/runself.cpp
 CMakeFiles/reseek.dir/runself.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/reseek.dir/runself.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/reseek.dir/runself.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/runself.cpp.o -MF CMakeFiles/reseek.dir/runself.cpp.o.d -o CMakeFiles/reseek.dir/runself.cpp.o -c /Users/igortolstoy/Projects/reseek/src/runself.cpp
 
 CMakeFiles/reseek.dir/runself.cpp.i: cmake_force
@@ -1979,7 +1965,7 @@ CMakeFiles/reseek.dir/runself.cpp.s: cmake_force
 CMakeFiles/reseek.dir/runthreads.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/runthreads.cpp.o: /Users/igortolstoy/Projects/reseek/src/runthreads.cpp
 CMakeFiles/reseek.dir/runthreads.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/reseek.dir/runthreads.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/reseek.dir/runthreads.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/runthreads.cpp.o -MF CMakeFiles/reseek.dir/runthreads.cpp.o.d -o CMakeFiles/reseek.dir/runthreads.cpp.o -c /Users/igortolstoy/Projects/reseek/src/runthreads.cpp
 
 CMakeFiles/reseek.dir/runthreads.cpp.i: cmake_force
@@ -1993,7 +1979,7 @@ CMakeFiles/reseek.dir/runthreads.cpp.s: cmake_force
 CMakeFiles/reseek.dir/scalar_sweep.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/scalar_sweep.cpp.o: /Users/igortolstoy/Projects/reseek/src/scalar_sweep.cpp
 CMakeFiles/reseek.dir/scalar_sweep.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/reseek.dir/scalar_sweep.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/reseek.dir/scalar_sweep.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/scalar_sweep.cpp.o -MF CMakeFiles/reseek.dir/scalar_sweep.cpp.o.d -o CMakeFiles/reseek.dir/scalar_sweep.cpp.o -c /Users/igortolstoy/Projects/reseek/src/scalar_sweep.cpp
 
 CMakeFiles/reseek.dir/scalar_sweep.cpp.i: cmake_force
@@ -2007,7 +1993,7 @@ CMakeFiles/reseek.dir/scalar_sweep.cpp.s: cmake_force
 CMakeFiles/reseek.dir/scop40bench.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/scop40bench.cpp.o: /Users/igortolstoy/Projects/reseek/src/scop40bench.cpp
 CMakeFiles/reseek.dir/scop40bench.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/reseek.dir/scop40bench.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/reseek.dir/scop40bench.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/scop40bench.cpp.o -MF CMakeFiles/reseek.dir/scop40bench.cpp.o.d -o CMakeFiles/reseek.dir/scop40bench.cpp.o -c /Users/igortolstoy/Projects/reseek/src/scop40bench.cpp
 
 CMakeFiles/reseek.dir/scop40bench.cpp.i: cmake_force
@@ -2021,7 +2007,7 @@ CMakeFiles/reseek.dir/scop40bench.cpp.s: cmake_force
 CMakeFiles/reseek.dir/scop40benchroc.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/scop40benchroc.cpp.o: /Users/igortolstoy/Projects/reseek/src/scop40benchroc.cpp
 CMakeFiles/reseek.dir/scop40benchroc.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/reseek.dir/scop40benchroc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/reseek.dir/scop40benchroc.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/scop40benchroc.cpp.o -MF CMakeFiles/reseek.dir/scop40benchroc.cpp.o.d -o CMakeFiles/reseek.dir/scop40benchroc.cpp.o -c /Users/igortolstoy/Projects/reseek/src/scop40benchroc.cpp
 
 CMakeFiles/reseek.dir/scop40benchroc.cpp.i: cmake_force
@@ -2035,7 +2021,7 @@ CMakeFiles/reseek.dir/scop40benchroc.cpp.s: cmake_force
 CMakeFiles/reseek.dir/scop40bit.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/scop40bit.cpp.o: /Users/igortolstoy/Projects/reseek/src/scop40bit.cpp
 CMakeFiles/reseek.dir/scop40bit.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/reseek.dir/scop40bit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/reseek.dir/scop40bit.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/scop40bit.cpp.o -MF CMakeFiles/reseek.dir/scop40bit.cpp.o.d -o CMakeFiles/reseek.dir/scop40bit.cpp.o -c /Users/igortolstoy/Projects/reseek/src/scop40bit.cpp
 
 CMakeFiles/reseek.dir/scop40bit.cpp.i: cmake_force
@@ -2049,7 +2035,7 @@ CMakeFiles/reseek.dir/scop40bit.cpp.s: cmake_force
 CMakeFiles/reseek.dir/search.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/search.cpp.o: /Users/igortolstoy/Projects/reseek/src/search.cpp
 CMakeFiles/reseek.dir/search.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/reseek.dir/search.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/reseek.dir/search.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/search.cpp.o -MF CMakeFiles/reseek.dir/search.cpp.o.d -o CMakeFiles/reseek.dir/search.cpp.o -c /Users/igortolstoy/Projects/reseek/src/search.cpp
 
 CMakeFiles/reseek.dir/search.cpp.i: cmake_force
@@ -2063,7 +2049,7 @@ CMakeFiles/reseek.dir/search.cpp.s: cmake_force
 CMakeFiles/reseek.dir/seqdb.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/seqdb.cpp.o: /Users/igortolstoy/Projects/reseek/src/seqdb.cpp
 CMakeFiles/reseek.dir/seqdb.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/reseek.dir/seqdb.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/reseek.dir/seqdb.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/seqdb.cpp.o -MF CMakeFiles/reseek.dir/seqdb.cpp.o.d -o CMakeFiles/reseek.dir/seqdb.cpp.o -c /Users/igortolstoy/Projects/reseek/src/seqdb.cpp
 
 CMakeFiles/reseek.dir/seqdb.cpp.i: cmake_force
@@ -2077,7 +2063,7 @@ CMakeFiles/reseek.dir/seqdb.cpp.s: cmake_force
 CMakeFiles/reseek.dir/seqfeeder.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/seqfeeder.cpp.o: /Users/igortolstoy/Projects/reseek/src/seqfeeder.cpp
 CMakeFiles/reseek.dir/seqfeeder.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/reseek.dir/seqfeeder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/reseek.dir/seqfeeder.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/seqfeeder.cpp.o -MF CMakeFiles/reseek.dir/seqfeeder.cpp.o.d -o CMakeFiles/reseek.dir/seqfeeder.cpp.o -c /Users/igortolstoy/Projects/reseek/src/seqfeeder.cpp
 
 CMakeFiles/reseek.dir/seqfeeder.cpp.i: cmake_force
@@ -2091,7 +2077,7 @@ CMakeFiles/reseek.dir/seqfeeder.cpp.s: cmake_force
 CMakeFiles/reseek.dir/seqinfo.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/seqinfo.cpp.o: /Users/igortolstoy/Projects/reseek/src/seqinfo.cpp
 CMakeFiles/reseek.dir/seqinfo.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/reseek.dir/seqinfo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/reseek.dir/seqinfo.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/seqinfo.cpp.o -MF CMakeFiles/reseek.dir/seqinfo.cpp.o.d -o CMakeFiles/reseek.dir/seqinfo.cpp.o -c /Users/igortolstoy/Projects/reseek/src/seqinfo.cpp
 
 CMakeFiles/reseek.dir/seqinfo.cpp.i: cmake_force
@@ -2105,7 +2091,7 @@ CMakeFiles/reseek.dir/seqinfo.cpp.s: cmake_force
 CMakeFiles/reseek.dir/seqsource.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/seqsource.cpp.o: /Users/igortolstoy/Projects/reseek/src/seqsource.cpp
 CMakeFiles/reseek.dir/seqsource.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/reseek.dir/seqsource.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/reseek.dir/seqsource.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/seqsource.cpp.o -MF CMakeFiles/reseek.dir/seqsource.cpp.o.d -o CMakeFiles/reseek.dir/seqsource.cpp.o -c /Users/igortolstoy/Projects/reseek/src/seqsource.cpp
 
 CMakeFiles/reseek.dir/seqsource.cpp.i: cmake_force
@@ -2119,7 +2105,7 @@ CMakeFiles/reseek.dir/seqsource.cpp.s: cmake_force
 CMakeFiles/reseek.dir/sfasta.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/sfasta.cpp.o: /Users/igortolstoy/Projects/reseek/src/sfasta.cpp
 CMakeFiles/reseek.dir/sfasta.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/reseek.dir/sfasta.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/reseek.dir/sfasta.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/sfasta.cpp.o -MF CMakeFiles/reseek.dir/sfasta.cpp.o.d -o CMakeFiles/reseek.dir/sfasta.cpp.o -c /Users/igortolstoy/Projects/reseek/src/sfasta.cpp
 
 CMakeFiles/reseek.dir/sfasta.cpp.i: cmake_force
@@ -2133,7 +2119,7 @@ CMakeFiles/reseek.dir/sfasta.cpp.s: cmake_force
 CMakeFiles/reseek.dir/shuffle.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/shuffle.cpp.o: /Users/igortolstoy/Projects/reseek/src/shuffle.cpp
 CMakeFiles/reseek.dir/shuffle.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/reseek.dir/shuffle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/reseek.dir/shuffle.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/shuffle.cpp.o -MF CMakeFiles/reseek.dir/shuffle.cpp.o.d -o CMakeFiles/reseek.dir/shuffle.cpp.o -c /Users/igortolstoy/Projects/reseek/src/shuffle.cpp
 
 CMakeFiles/reseek.dir/shuffle.cpp.i: cmake_force
@@ -2144,24 +2130,10 @@ CMakeFiles/reseek.dir/shuffle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/reseek.dir/shuffle.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/igortolstoy/Projects/reseek/src/shuffle.cpp -o CMakeFiles/reseek.dir/shuffle.cpp.s
 
-CMakeFiles/reseek.dir/simple_neon_test.cpp.o: CMakeFiles/reseek.dir/flags.make
-CMakeFiles/reseek.dir/simple_neon_test.cpp.o: /Users/igortolstoy/Projects/reseek/src/simple_neon_test.cpp
-CMakeFiles/reseek.dir/simple_neon_test.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/reseek.dir/simple_neon_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/simple_neon_test.cpp.o -MF CMakeFiles/reseek.dir/simple_neon_test.cpp.o.d -o CMakeFiles/reseek.dir/simple_neon_test.cpp.o -c /Users/igortolstoy/Projects/reseek/src/simple_neon_test.cpp
-
-CMakeFiles/reseek.dir/simple_neon_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/reseek.dir/simple_neon_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/igortolstoy/Projects/reseek/src/simple_neon_test.cpp > CMakeFiles/reseek.dir/simple_neon_test.cpp.i
-
-CMakeFiles/reseek.dir/simple_neon_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/reseek.dir/simple_neon_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/igortolstoy/Projects/reseek/src/simple_neon_test.cpp -o CMakeFiles/reseek.dir/simple_neon_test.cpp.s
-
 CMakeFiles/reseek.dir/sort.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/sort.cpp.o: /Users/igortolstoy/Projects/reseek/src/sort.cpp
 CMakeFiles/reseek.dir/sort.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/reseek.dir/sort.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/reseek.dir/sort.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/sort.cpp.o -MF CMakeFiles/reseek.dir/sort.cpp.o.d -o CMakeFiles/reseek.dir/sort.cpp.o -c /Users/igortolstoy/Projects/reseek/src/sort.cpp
 
 CMakeFiles/reseek.dir/sort.cpp.i: cmake_force
@@ -2175,7 +2147,7 @@ CMakeFiles/reseek.dir/sort.cpp.s: cmake_force
 CMakeFiles/reseek.dir/spher.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/spher.cpp.o: /Users/igortolstoy/Projects/reseek/src/spher.cpp
 CMakeFiles/reseek.dir/spher.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/reseek.dir/spher.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/reseek.dir/spher.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/spher.cpp.o -MF CMakeFiles/reseek.dir/spher.cpp.o.d -o CMakeFiles/reseek.dir/spher.cpp.o -c /Users/igortolstoy/Projects/reseek/src/spher.cpp
 
 CMakeFiles/reseek.dir/spher.cpp.i: cmake_force
@@ -2189,7 +2161,7 @@ CMakeFiles/reseek.dir/spher.cpp.s: cmake_force
 CMakeFiles/reseek.dir/split.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/split.cpp.o: /Users/igortolstoy/Projects/reseek/src/split.cpp
 CMakeFiles/reseek.dir/split.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/reseek.dir/split.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/reseek.dir/split.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/split.cpp.o -MF CMakeFiles/reseek.dir/split.cpp.o.d -o CMakeFiles/reseek.dir/split.cpp.o -c /Users/igortolstoy/Projects/reseek/src/split.cpp
 
 CMakeFiles/reseek.dir/split.cpp.i: cmake_force
@@ -2203,7 +2175,7 @@ CMakeFiles/reseek.dir/split.cpp.s: cmake_force
 CMakeFiles/reseek.dir/sscluster.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/sscluster.cpp.o: /Users/igortolstoy/Projects/reseek/src/sscluster.cpp
 CMakeFiles/reseek.dir/sscluster.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/reseek.dir/sscluster.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/reseek.dir/sscluster.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/sscluster.cpp.o -MF CMakeFiles/reseek.dir/sscluster.cpp.o.d -o CMakeFiles/reseek.dir/sscluster.cpp.o -c /Users/igortolstoy/Projects/reseek/src/sscluster.cpp
 
 CMakeFiles/reseek.dir/sscluster.cpp.i: cmake_force
@@ -2217,7 +2189,7 @@ CMakeFiles/reseek.dir/sscluster.cpp.s: cmake_force
 CMakeFiles/reseek.dir/statsig.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/statsig.cpp.o: /Users/igortolstoy/Projects/reseek/src/statsig.cpp
 CMakeFiles/reseek.dir/statsig.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/reseek.dir/statsig.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/reseek.dir/statsig.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/statsig.cpp.o -MF CMakeFiles/reseek.dir/statsig.cpp.o.d -o CMakeFiles/reseek.dir/statsig.cpp.o -c /Users/igortolstoy/Projects/reseek/src/statsig.cpp
 
 CMakeFiles/reseek.dir/statsig.cpp.i: cmake_force
@@ -2231,7 +2203,7 @@ CMakeFiles/reseek.dir/statsig.cpp.s: cmake_force
 CMakeFiles/reseek.dir/sw.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/sw.cpp.o: /Users/igortolstoy/Projects/reseek/src/sw.cpp
 CMakeFiles/reseek.dir/sw.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/reseek.dir/sw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/reseek.dir/sw.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/sw.cpp.o -MF CMakeFiles/reseek.dir/sw.cpp.o.d -o CMakeFiles/reseek.dir/sw.cpp.o -c /Users/igortolstoy/Projects/reseek/src/sw.cpp
 
 CMakeFiles/reseek.dir/sw.cpp.i: cmake_force
@@ -2245,7 +2217,7 @@ CMakeFiles/reseek.dir/sw.cpp.s: cmake_force
 CMakeFiles/reseek.dir/sweeper.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/sweeper.cpp.o: /Users/igortolstoy/Projects/reseek/src/sweeper.cpp
 CMakeFiles/reseek.dir/sweeper.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/reseek.dir/sweeper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/reseek.dir/sweeper.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/sweeper.cpp.o -MF CMakeFiles/reseek.dir/sweeper.cpp.o.d -o CMakeFiles/reseek.dir/sweeper.cpp.o -c /Users/igortolstoy/Projects/reseek/src/sweeper.cpp
 
 CMakeFiles/reseek.dir/sweeper.cpp.i: cmake_force
@@ -2259,7 +2231,7 @@ CMakeFiles/reseek.dir/sweeper.cpp.s: cmake_force
 CMakeFiles/reseek.dir/swfastpinop.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/swfastpinop.cpp.o: /Users/igortolstoy/Projects/reseek/src/swfastpinop.cpp
 CMakeFiles/reseek.dir/swfastpinop.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/reseek.dir/swfastpinop.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/reseek.dir/swfastpinop.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/swfastpinop.cpp.o -MF CMakeFiles/reseek.dir/swfastpinop.cpp.o.d -o CMakeFiles/reseek.dir/swfastpinop.cpp.o -c /Users/igortolstoy/Projects/reseek/src/swfastpinop.cpp
 
 CMakeFiles/reseek.dir/swfastpinop.cpp.i: cmake_force
@@ -2273,7 +2245,7 @@ CMakeFiles/reseek.dir/swfastpinop.cpp.s: cmake_force
 CMakeFiles/reseek.dir/swfastpinopgapless.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/swfastpinopgapless.cpp.o: /Users/igortolstoy/Projects/reseek/src/swfastpinopgapless.cpp
 CMakeFiles/reseek.dir/swfastpinopgapless.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object CMakeFiles/reseek.dir/swfastpinopgapless.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/reseek.dir/swfastpinopgapless.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/swfastpinopgapless.cpp.o -MF CMakeFiles/reseek.dir/swfastpinopgapless.cpp.o.d -o CMakeFiles/reseek.dir/swfastpinopgapless.cpp.o -c /Users/igortolstoy/Projects/reseek/src/swfastpinopgapless.cpp
 
 CMakeFiles/reseek.dir/swfastpinopgapless.cpp.i: cmake_force
@@ -2287,7 +2259,7 @@ CMakeFiles/reseek.dir/swfastpinopgapless.cpp.s: cmake_force
 CMakeFiles/reseek.dir/swgapless.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/swgapless.cpp.o: /Users/igortolstoy/Projects/reseek/src/swgapless.cpp
 CMakeFiles/reseek.dir/swgapless.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/reseek.dir/swgapless.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/reseek.dir/swgapless.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/swgapless.cpp.o -MF CMakeFiles/reseek.dir/swgapless.cpp.o.d -o CMakeFiles/reseek.dir/swgapless.cpp.o -c /Users/igortolstoy/Projects/reseek/src/swgapless.cpp
 
 CMakeFiles/reseek.dir/swgapless.cpp.i: cmake_force
@@ -2301,7 +2273,7 @@ CMakeFiles/reseek.dir/swgapless.cpp.s: cmake_force
 CMakeFiles/reseek.dir/swgaplessint.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/swgaplessint.cpp.o: /Users/igortolstoy/Projects/reseek/src/swgaplessint.cpp
 CMakeFiles/reseek.dir/swgaplessint.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/reseek.dir/swgaplessint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object CMakeFiles/reseek.dir/swgaplessint.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/swgaplessint.cpp.o -MF CMakeFiles/reseek.dir/swgaplessint.cpp.o.d -o CMakeFiles/reseek.dir/swgaplessint.cpp.o -c /Users/igortolstoy/Projects/reseek/src/swgaplessint.cpp
 
 CMakeFiles/reseek.dir/swgaplessint.cpp.i: cmake_force
@@ -2315,7 +2287,7 @@ CMakeFiles/reseek.dir/swgaplessint.cpp.s: cmake_force
 CMakeFiles/reseek.dir/swgaplessprof.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/swgaplessprof.cpp.o: /Users/igortolstoy/Projects/reseek/src/swgaplessprof.cpp
 CMakeFiles/reseek.dir/swgaplessprof.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/reseek.dir/swgaplessprof.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/reseek.dir/swgaplessprof.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/swgaplessprof.cpp.o -MF CMakeFiles/reseek.dir/swgaplessprof.cpp.o.d -o CMakeFiles/reseek.dir/swgaplessprof.cpp.o -c /Users/igortolstoy/Projects/reseek/src/swgaplessprof.cpp
 
 CMakeFiles/reseek.dir/swgaplessprof.cpp.i: cmake_force
@@ -2329,7 +2301,7 @@ CMakeFiles/reseek.dir/swgaplessprof.cpp.s: cmake_force
 CMakeFiles/reseek.dir/swgaplessprofb.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/swgaplessprofb.cpp.o: /Users/igortolstoy/Projects/reseek/src/swgaplessprofb.cpp
 CMakeFiles/reseek.dir/swgaplessprofb.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/reseek.dir/swgaplessprofb.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/reseek.dir/swgaplessprofb.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/swgaplessprofb.cpp.o -MF CMakeFiles/reseek.dir/swgaplessprofb.cpp.o.d -o CMakeFiles/reseek.dir/swgaplessprofb.cpp.o -c /Users/igortolstoy/Projects/reseek/src/swgaplessprofb.cpp
 
 CMakeFiles/reseek.dir/swgaplessprofb.cpp.i: cmake_force
@@ -2343,7 +2315,7 @@ CMakeFiles/reseek.dir/swgaplessprofb.cpp.s: cmake_force
 CMakeFiles/reseek.dir/test_chrono_ticks.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/test_chrono_ticks.cpp.o: /Users/igortolstoy/Projects/reseek/src/test_chrono_ticks.cpp
 CMakeFiles/reseek.dir/test_chrono_ticks.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/reseek.dir/test_chrono_ticks.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/reseek.dir/test_chrono_ticks.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/test_chrono_ticks.cpp.o -MF CMakeFiles/reseek.dir/test_chrono_ticks.cpp.o.d -o CMakeFiles/reseek.dir/test_chrono_ticks.cpp.o -c /Users/igortolstoy/Projects/reseek/src/test_chrono_ticks.cpp
 
 CMakeFiles/reseek.dir/test_chrono_ticks.cpp.i: cmake_force
@@ -2354,24 +2326,10 @@ CMakeFiles/reseek.dir/test_chrono_ticks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/reseek.dir/test_chrono_ticks.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/igortolstoy/Projects/reseek/src/test_chrono_ticks.cpp -o CMakeFiles/reseek.dir/test_chrono_ticks.cpp.s
 
-CMakeFiles/reseek.dir/test_neon.cpp.o: CMakeFiles/reseek.dir/flags.make
-CMakeFiles/reseek.dir/test_neon.cpp.o: /Users/igortolstoy/Projects/reseek/src/test_neon.cpp
-CMakeFiles/reseek.dir/test_neon.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/reseek.dir/test_neon.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/test_neon.cpp.o -MF CMakeFiles/reseek.dir/test_neon.cpp.o.d -o CMakeFiles/reseek.dir/test_neon.cpp.o -c /Users/igortolstoy/Projects/reseek/src/test_neon.cpp
-
-CMakeFiles/reseek.dir/test_neon.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/reseek.dir/test_neon.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/igortolstoy/Projects/reseek/src/test_neon.cpp > CMakeFiles/reseek.dir/test_neon.cpp.i
-
-CMakeFiles/reseek.dir/test_neon.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/reseek.dir/test_neon.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/igortolstoy/Projects/reseek/src/test_neon.cpp -o CMakeFiles/reseek.dir/test_neon.cpp.s
-
 CMakeFiles/reseek.dir/test_para.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/test_para.cpp.o: /Users/igortolstoy/Projects/reseek/src/test_para.cpp
 CMakeFiles/reseek.dir/test_para.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object CMakeFiles/reseek.dir/test_para.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/reseek.dir/test_para.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/test_para.cpp.o -MF CMakeFiles/reseek.dir/test_para.cpp.o.d -o CMakeFiles/reseek.dir/test_para.cpp.o -c /Users/igortolstoy/Projects/reseek/src/test_para.cpp
 
 CMakeFiles/reseek.dir/test_para.cpp.i: cmake_force
@@ -2385,7 +2343,7 @@ CMakeFiles/reseek.dir/test_para.cpp.s: cmake_force
 CMakeFiles/reseek.dir/test_para_cal.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/test_para_cal.cpp.o: /Users/igortolstoy/Projects/reseek/src/test_para_cal.cpp
 CMakeFiles/reseek.dir/test_para_cal.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object CMakeFiles/reseek.dir/test_para_cal.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/reseek.dir/test_para_cal.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/test_para_cal.cpp.o -MF CMakeFiles/reseek.dir/test_para_cal.cpp.o.d -o CMakeFiles/reseek.dir/test_para_cal.cpp.o -c /Users/igortolstoy/Projects/reseek/src/test_para_cal.cpp
 
 CMakeFiles/reseek.dir/test_para_cal.cpp.i: cmake_force
@@ -2399,7 +2357,7 @@ CMakeFiles/reseek.dir/test_para_cal.cpp.s: cmake_force
 CMakeFiles/reseek.dir/test_para_path.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/test_para_path.cpp.o: /Users/igortolstoy/Projects/reseek/src/test_para_path.cpp
 CMakeFiles/reseek.dir/test_para_path.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object CMakeFiles/reseek.dir/test_para_path.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/reseek.dir/test_para_path.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/test_para_path.cpp.o -MF CMakeFiles/reseek.dir/test_para_path.cpp.o.d -o CMakeFiles/reseek.dir/test_para_path.cpp.o -c /Users/igortolstoy/Projects/reseek/src/test_para_path.cpp
 
 CMakeFiles/reseek.dir/test_para_path.cpp.i: cmake_force
@@ -2413,7 +2371,7 @@ CMakeFiles/reseek.dir/test_para_path.cpp.s: cmake_force
 CMakeFiles/reseek.dir/test_xdrop.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/test_xdrop.cpp.o: /Users/igortolstoy/Projects/reseek/src/test_xdrop.cpp
 CMakeFiles/reseek.dir/test_xdrop.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object CMakeFiles/reseek.dir/test_xdrop.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object CMakeFiles/reseek.dir/test_xdrop.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/test_xdrop.cpp.o -MF CMakeFiles/reseek.dir/test_xdrop.cpp.o.d -o CMakeFiles/reseek.dir/test_xdrop.cpp.o -c /Users/igortolstoy/Projects/reseek/src/test_xdrop.cpp
 
 CMakeFiles/reseek.dir/test_xdrop.cpp.i: cmake_force
@@ -2427,7 +2385,7 @@ CMakeFiles/reseek.dir/test_xdrop.cpp.s: cmake_force
 CMakeFiles/reseek.dir/testmodel.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/testmodel.cpp.o: /Users/igortolstoy/Projects/reseek/src/testmodel.cpp
 CMakeFiles/reseek.dir/testmodel.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object CMakeFiles/reseek.dir/testmodel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object CMakeFiles/reseek.dir/testmodel.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/testmodel.cpp.o -MF CMakeFiles/reseek.dir/testmodel.cpp.o.d -o CMakeFiles/reseek.dir/testmodel.cpp.o -c /Users/igortolstoy/Projects/reseek/src/testmodel.cpp
 
 CMakeFiles/reseek.dir/testmodel.cpp.i: cmake_force
@@ -2441,7 +2399,7 @@ CMakeFiles/reseek.dir/testmodel.cpp.s: cmake_force
 CMakeFiles/reseek.dir/testmodel2.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/testmodel2.cpp.o: /Users/igortolstoy/Projects/reseek/src/testmodel2.cpp
 CMakeFiles/reseek.dir/testmodel2.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/reseek.dir/testmodel2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object CMakeFiles/reseek.dir/testmodel2.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/testmodel2.cpp.o -MF CMakeFiles/reseek.dir/testmodel2.cpp.o.d -o CMakeFiles/reseek.dir/testmodel2.cpp.o -c /Users/igortolstoy/Projects/reseek/src/testmodel2.cpp
 
 CMakeFiles/reseek.dir/testmodel2.cpp.i: cmake_force
@@ -2455,7 +2413,7 @@ CMakeFiles/reseek.dir/testmodel2.cpp.s: cmake_force
 CMakeFiles/reseek.dir/timing.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/timing.cpp.o: /Users/igortolstoy/Projects/reseek/src/timing.cpp
 CMakeFiles/reseek.dir/timing.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/reseek.dir/timing.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object CMakeFiles/reseek.dir/timing.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/timing.cpp.o -MF CMakeFiles/reseek.dir/timing.cpp.o.d -o CMakeFiles/reseek.dir/timing.cpp.o -c /Users/igortolstoy/Projects/reseek/src/timing.cpp
 
 CMakeFiles/reseek.dir/timing.cpp.i: cmake_force
@@ -2469,7 +2427,7 @@ CMakeFiles/reseek.dir/timing.cpp.s: cmake_force
 CMakeFiles/reseek.dir/tracealn.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/tracealn.cpp.o: /Users/igortolstoy/Projects/reseek/src/tracealn.cpp
 CMakeFiles/reseek.dir/tracealn.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/reseek.dir/tracealn.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object CMakeFiles/reseek.dir/tracealn.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/tracealn.cpp.o -MF CMakeFiles/reseek.dir/tracealn.cpp.o.d -o CMakeFiles/reseek.dir/tracealn.cpp.o -c /Users/igortolstoy/Projects/reseek/src/tracealn.cpp
 
 CMakeFiles/reseek.dir/tracealn.cpp.i: cmake_force
@@ -2483,7 +2441,7 @@ CMakeFiles/reseek.dir/tracealn.cpp.s: cmake_force
 CMakeFiles/reseek.dir/tracebackbitmem.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/tracebackbitmem.cpp.o: /Users/igortolstoy/Projects/reseek/src/tracebackbitmem.cpp
 CMakeFiles/reseek.dir/tracebackbitmem.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object CMakeFiles/reseek.dir/tracebackbitmem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/reseek.dir/tracebackbitmem.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/tracebackbitmem.cpp.o -MF CMakeFiles/reseek.dir/tracebackbitmem.cpp.o.d -o CMakeFiles/reseek.dir/tracebackbitmem.cpp.o -c /Users/igortolstoy/Projects/reseek/src/tracebackbitmem.cpp
 
 CMakeFiles/reseek.dir/tracebackbitmem.cpp.i: cmake_force
@@ -2497,7 +2455,7 @@ CMakeFiles/reseek.dir/tracebackbitmem.cpp.s: cmake_force
 CMakeFiles/reseek.dir/train_features.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/train_features.cpp.o: /Users/igortolstoy/Projects/reseek/src/train_features.cpp
 CMakeFiles/reseek.dir/train_features.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object CMakeFiles/reseek.dir/train_features.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/reseek.dir/train_features.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/train_features.cpp.o -MF CMakeFiles/reseek.dir/train_features.cpp.o.d -o CMakeFiles/reseek.dir/train_features.cpp.o -c /Users/igortolstoy/Projects/reseek/src/train_features.cpp
 
 CMakeFiles/reseek.dir/train_features.cpp.i: cmake_force
@@ -2511,7 +2469,7 @@ CMakeFiles/reseek.dir/train_features.cpp.s: cmake_force
 CMakeFiles/reseek.dir/trained_features.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/trained_features.cpp.o: /Users/igortolstoy/Projects/reseek/src/trained_features.cpp
 CMakeFiles/reseek.dir/trained_features.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/reseek.dir/trained_features.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/reseek.dir/trained_features.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/trained_features.cpp.o -MF CMakeFiles/reseek.dir/trained_features.cpp.o.d -o CMakeFiles/reseek.dir/trained_features.cpp.o -c /Users/igortolstoy/Projects/reseek/src/trained_features.cpp
 
 CMakeFiles/reseek.dir/trained_features.cpp.i: cmake_force
@@ -2525,7 +2483,7 @@ CMakeFiles/reseek.dir/trained_features.cpp.s: cmake_force
 CMakeFiles/reseek.dir/trainer.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/trainer.cpp.o: /Users/igortolstoy/Projects/reseek/src/trainer.cpp
 CMakeFiles/reseek.dir/trainer.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/reseek.dir/trainer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object CMakeFiles/reseek.dir/trainer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/trainer.cpp.o -MF CMakeFiles/reseek.dir/trainer.cpp.o.d -o CMakeFiles/reseek.dir/trainer.cpp.o -c /Users/igortolstoy/Projects/reseek/src/trainer.cpp
 
 CMakeFiles/reseek.dir/trainer.cpp.i: cmake_force
@@ -2539,7 +2497,7 @@ CMakeFiles/reseek.dir/trainer.cpp.s: cmake_force
 CMakeFiles/reseek.dir/trees.c.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/trees.c.o: /Users/igortolstoy/Projects/reseek/src/trees.c
 CMakeFiles/reseek.dir/trees.c.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/reseek.dir/trees.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/reseek.dir/trees.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/reseek.dir/trees.c.o -MF CMakeFiles/reseek.dir/trees.c.o.d -o CMakeFiles/reseek.dir/trees.c.o -c /Users/igortolstoy/Projects/reseek/src/trees.c
 
 CMakeFiles/reseek.dir/trees.c.i: cmake_force
@@ -2553,7 +2511,7 @@ CMakeFiles/reseek.dir/trees.c.s: cmake_force
 CMakeFiles/reseek.dir/twohitdiag.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/twohitdiag.cpp.o: /Users/igortolstoy/Projects/reseek/src/twohitdiag.cpp
 CMakeFiles/reseek.dir/twohitdiag.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object CMakeFiles/reseek.dir/twohitdiag.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/reseek.dir/twohitdiag.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/twohitdiag.cpp.o -MF CMakeFiles/reseek.dir/twohitdiag.cpp.o.d -o CMakeFiles/reseek.dir/twohitdiag.cpp.o -c /Users/igortolstoy/Projects/reseek/src/twohitdiag.cpp
 
 CMakeFiles/reseek.dir/twohitdiag.cpp.i: cmake_force
@@ -2567,7 +2525,7 @@ CMakeFiles/reseek.dir/twohitdiag.cpp.s: cmake_force
 CMakeFiles/reseek.dir/usage.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/usage.cpp.o: /Users/igortolstoy/Projects/reseek/src/usage.cpp
 CMakeFiles/reseek.dir/usage.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object CMakeFiles/reseek.dir/usage.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/reseek.dir/usage.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/usage.cpp.o -MF CMakeFiles/reseek.dir/usage.cpp.o.d -o CMakeFiles/reseek.dir/usage.cpp.o -c /Users/igortolstoy/Projects/reseek/src/usage.cpp
 
 CMakeFiles/reseek.dir/usage.cpp.i: cmake_force
@@ -2581,7 +2539,7 @@ CMakeFiles/reseek.dir/usage.cpp.s: cmake_force
 CMakeFiles/reseek.dir/userfields.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/userfields.cpp.o: /Users/igortolstoy/Projects/reseek/src/userfields.cpp
 CMakeFiles/reseek.dir/userfields.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object CMakeFiles/reseek.dir/userfields.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object CMakeFiles/reseek.dir/userfields.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/userfields.cpp.o -MF CMakeFiles/reseek.dir/userfields.cpp.o.d -o CMakeFiles/reseek.dir/userfields.cpp.o -c /Users/igortolstoy/Projects/reseek/src/userfields.cpp
 
 CMakeFiles/reseek.dir/userfields.cpp.i: cmake_force
@@ -2595,7 +2553,7 @@ CMakeFiles/reseek.dir/userfields.cpp.s: cmake_force
 CMakeFiles/reseek.dir/valuetoint.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/valuetoint.cpp.o: /Users/igortolstoy/Projects/reseek/src/valuetoint.cpp
 CMakeFiles/reseek.dir/valuetoint.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object CMakeFiles/reseek.dir/valuetoint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object CMakeFiles/reseek.dir/valuetoint.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/valuetoint.cpp.o -MF CMakeFiles/reseek.dir/valuetoint.cpp.o.d -o CMakeFiles/reseek.dir/valuetoint.cpp.o -c /Users/igortolstoy/Projects/reseek/src/valuetoint.cpp
 
 CMakeFiles/reseek.dir/valuetoint.cpp.i: cmake_force
@@ -2609,7 +2567,7 @@ CMakeFiles/reseek.dir/valuetoint.cpp.s: cmake_force
 CMakeFiles/reseek.dir/viterbifastmem.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/viterbifastmem.cpp.o: /Users/igortolstoy/Projects/reseek/src/viterbifastmem.cpp
 CMakeFiles/reseek.dir/viterbifastmem.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object CMakeFiles/reseek.dir/viterbifastmem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object CMakeFiles/reseek.dir/viterbifastmem.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/viterbifastmem.cpp.o -MF CMakeFiles/reseek.dir/viterbifastmem.cpp.o.d -o CMakeFiles/reseek.dir/viterbifastmem.cpp.o -c /Users/igortolstoy/Projects/reseek/src/viterbifastmem.cpp
 
 CMakeFiles/reseek.dir/viterbifastmem.cpp.i: cmake_force
@@ -2623,7 +2581,7 @@ CMakeFiles/reseek.dir/viterbifastmem.cpp.s: cmake_force
 CMakeFiles/reseek.dir/writelocalaln.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/writelocalaln.cpp.o: /Users/igortolstoy/Projects/reseek/src/writelocalaln.cpp
 CMakeFiles/reseek.dir/writelocalaln.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object CMakeFiles/reseek.dir/writelocalaln.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object CMakeFiles/reseek.dir/writelocalaln.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/writelocalaln.cpp.o -MF CMakeFiles/reseek.dir/writelocalaln.cpp.o.d -o CMakeFiles/reseek.dir/writelocalaln.cpp.o -c /Users/igortolstoy/Projects/reseek/src/writelocalaln.cpp
 
 CMakeFiles/reseek.dir/writelocalaln.cpp.i: cmake_force
@@ -2637,7 +2595,7 @@ CMakeFiles/reseek.dir/writelocalaln.cpp.s: cmake_force
 CMakeFiles/reseek.dir/xdropbwd.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/xdropbwd.cpp.o: /Users/igortolstoy/Projects/reseek/src/xdropbwd.cpp
 CMakeFiles/reseek.dir/xdropbwd.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object CMakeFiles/reseek.dir/xdropbwd.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object CMakeFiles/reseek.dir/xdropbwd.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/xdropbwd.cpp.o -MF CMakeFiles/reseek.dir/xdropbwd.cpp.o.d -o CMakeFiles/reseek.dir/xdropbwd.cpp.o -c /Users/igortolstoy/Projects/reseek/src/xdropbwd.cpp
 
 CMakeFiles/reseek.dir/xdropbwd.cpp.i: cmake_force
@@ -2651,7 +2609,7 @@ CMakeFiles/reseek.dir/xdropbwd.cpp.s: cmake_force
 CMakeFiles/reseek.dir/xdropfwd.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/xdropfwd.cpp.o: /Users/igortolstoy/Projects/reseek/src/xdropfwd.cpp
 CMakeFiles/reseek.dir/xdropfwd.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building CXX object CMakeFiles/reseek.dir/xdropfwd.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object CMakeFiles/reseek.dir/xdropfwd.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/xdropfwd.cpp.o -MF CMakeFiles/reseek.dir/xdropfwd.cpp.o.d -o CMakeFiles/reseek.dir/xdropfwd.cpp.o -c /Users/igortolstoy/Projects/reseek/src/xdropfwd.cpp
 
 CMakeFiles/reseek.dir/xdropfwd.cpp.i: cmake_force
@@ -2665,7 +2623,7 @@ CMakeFiles/reseek.dir/xdropfwd.cpp.s: cmake_force
 CMakeFiles/reseek.dir/xdrophsp.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/xdrophsp.cpp.o: /Users/igortolstoy/Projects/reseek/src/xdrophsp.cpp
 CMakeFiles/reseek.dir/xdrophsp.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building CXX object CMakeFiles/reseek.dir/xdrophsp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object CMakeFiles/reseek.dir/xdrophsp.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/xdrophsp.cpp.o -MF CMakeFiles/reseek.dir/xdrophsp.cpp.o.d -o CMakeFiles/reseek.dir/xdrophsp.cpp.o -c /Users/igortolstoy/Projects/reseek/src/xdrophsp.cpp
 
 CMakeFiles/reseek.dir/xdrophsp.cpp.i: cmake_force
@@ -2679,7 +2637,7 @@ CMakeFiles/reseek.dir/xdrophsp.cpp.s: cmake_force
 CMakeFiles/reseek.dir/zscorer.cpp.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/zscorer.cpp.o: /Users/igortolstoy/Projects/reseek/src/zscorer.cpp
 CMakeFiles/reseek.dir/zscorer.cpp.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building CXX object CMakeFiles/reseek.dir/zscorer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object CMakeFiles/reseek.dir/zscorer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reseek.dir/zscorer.cpp.o -MF CMakeFiles/reseek.dir/zscorer.cpp.o.d -o CMakeFiles/reseek.dir/zscorer.cpp.o -c /Users/igortolstoy/Projects/reseek/src/zscorer.cpp
 
 CMakeFiles/reseek.dir/zscorer.cpp.i: cmake_force
@@ -2693,7 +2651,7 @@ CMakeFiles/reseek.dir/zscorer.cpp.s: cmake_force
 CMakeFiles/reseek.dir/zutil.c.o: CMakeFiles/reseek.dir/flags.make
 CMakeFiles/reseek.dir/zutil.c.o: /Users/igortolstoy/Projects/reseek/src/zutil.c
 CMakeFiles/reseek.dir/zutil.c.o: CMakeFiles/reseek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/reseek.dir/zutil.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/reseek.dir/zutil.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/reseek.dir/zutil.c.o -MF CMakeFiles/reseek.dir/zutil.c.o.d -o CMakeFiles/reseek.dir/zutil.c.o -c /Users/igortolstoy/Projects/reseek/src/zutil.c
 
 CMakeFiles/reseek.dir/zutil.c.i: cmake_force
@@ -2836,7 +2794,6 @@ reseek_OBJECTS = \
 "CMakeFiles/reseek.dir/profileloader.cpp.o" \
 "CMakeFiles/reseek.dir/quarts.cpp.o" \
 "CMakeFiles/reseek.dir/rankedscoresbag.cpp.o" \
-"CMakeFiles/reseek.dir/raw_neon_test.cpp.o" \
 "CMakeFiles/reseek.dir/readchains.cpp.o" \
 "CMakeFiles/reseek.dir/readhits.cpp.o" \
 "CMakeFiles/reseek.dir/reseek_main.cpp.o" \
@@ -2854,7 +2811,6 @@ reseek_OBJECTS = \
 "CMakeFiles/reseek.dir/seqsource.cpp.o" \
 "CMakeFiles/reseek.dir/sfasta.cpp.o" \
 "CMakeFiles/reseek.dir/shuffle.cpp.o" \
-"CMakeFiles/reseek.dir/simple_neon_test.cpp.o" \
 "CMakeFiles/reseek.dir/sort.cpp.o" \
 "CMakeFiles/reseek.dir/spher.cpp.o" \
 "CMakeFiles/reseek.dir/split.cpp.o" \
@@ -2869,7 +2825,6 @@ reseek_OBJECTS = \
 "CMakeFiles/reseek.dir/swgaplessprof.cpp.o" \
 "CMakeFiles/reseek.dir/swgaplessprofb.cpp.o" \
 "CMakeFiles/reseek.dir/test_chrono_ticks.cpp.o" \
-"CMakeFiles/reseek.dir/test_neon.cpp.o" \
 "CMakeFiles/reseek.dir/test_para.cpp.o" \
 "CMakeFiles/reseek.dir/test_para_cal.cpp.o" \
 "CMakeFiles/reseek.dir/test_para_path.cpp.o" \
@@ -3028,7 +2983,6 @@ reseek_EXTERNAL_OBJECTS =
 /Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/profileloader.cpp.o
 /Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/quarts.cpp.o
 /Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/rankedscoresbag.cpp.o
-/Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/raw_neon_test.cpp.o
 /Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/readchains.cpp.o
 /Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/readhits.cpp.o
 /Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/reseek_main.cpp.o
@@ -3046,7 +3000,6 @@ reseek_EXTERNAL_OBJECTS =
 /Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/seqsource.cpp.o
 /Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/sfasta.cpp.o
 /Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/shuffle.cpp.o
-/Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/simple_neon_test.cpp.o
 /Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/sort.cpp.o
 /Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/spher.cpp.o
 /Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/split.cpp.o
@@ -3061,7 +3014,6 @@ reseek_EXTERNAL_OBJECTS =
 /Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/swgaplessprof.cpp.o
 /Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/swgaplessprofb.cpp.o
 /Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/test_chrono_ticks.cpp.o
-/Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/test_neon.cpp.o
 /Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/test_para.cpp.o
 /Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/test_para_cal.cpp.o
 /Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/test_para_path.cpp.o
@@ -3089,7 +3041,7 @@ reseek_EXTERNAL_OBJECTS =
 /Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/build.make
 /Users/igortolstoy/Projects/reseek/bin/reseek: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/libz.tbd
 /Users/igortolstoy/Projects/reseek/bin/reseek: CMakeFiles/reseek.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Linking CXX executable /Users/igortolstoy/Projects/reseek/bin/reseek"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/igortolstoy/Projects/reseek/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Linking CXX executable /Users/igortolstoy/Projects/reseek/bin/reseek"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/reseek.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

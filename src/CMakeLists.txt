@@ -26,8 +26,13 @@ set(CMAKE_CXX_FLAGS_RELEASE "-O3 -DNDEBUG")
 find_package(ZLIB REQUIRED)
 find_package(Threads REQUIRED)
 
-# Collect all source files
+# Collect all source files (excluding test files)
 file(GLOB SOURCES "*.cpp" "*.c")
+# Remove test files from main build
+list(REMOVE_ITEM SOURCES
+    "${CMAKE_CURRENT_SOURCE_DIR}/test_neon.cpp"
+    "${CMAKE_CURRENT_SOURCE_DIR}/simple_neon_test.cpp"
+    "${CMAKE_CURRENT_SOURCE_DIR}/raw_neon_test.cpp")
 
 # Create executable
 add_executable(reseek ${SOURCES})

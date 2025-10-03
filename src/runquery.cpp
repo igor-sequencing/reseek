@@ -107,7 +107,7 @@ void DBSearcher::RunQuery(ChainReader2 &QCR)
 	vector<thread *> ts;
 	for (uint ThreadIndex = 0; ThreadIndex < ThreadCount; ++ThreadIndex)
 		{
-		thread *t = new thread([=]() { StaticThreadBodyQuery(ThreadIndex, this, &QCR); });
+		thread *t = new thread([ThreadIndex, this, &QCR]() { StaticThreadBodyQuery(ThreadIndex, this, &QCR); });
 		ts.push_back(t);
 		}
 	for (uint ThreadIndex = 0; ThreadIndex < ThreadCount; ++ThreadIndex)

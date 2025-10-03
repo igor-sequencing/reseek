@@ -7,15 +7,15 @@ C_DEFINES = -D__ARM_NEON
 
 C_INCLUDES = 
 
-C_FLAGSarm64 = -O3 -DNDEBUG -arch arm64
+C_FLAGSarm64 =  -arch arm64
 
-C_FLAGS = -O3 -DNDEBUG -arch arm64
+C_FLAGS =  -arch arm64
 
 CXX_DEFINES = -D__ARM_NEON
 
 CXX_INCLUDES = 
 
-CXX_FLAGSarm64 =  -march=armv8-a+simd -O3 -pthread -Wall -O3 -DNDEBUG -std=gnu++11 -arch arm64
+CXX_FLAGSarm64 =  -march=armv8-a+simd -O3 -pthread -Wall -std=gnu++11 -arch arm64
 
-CXX_FLAGS =  -march=armv8-a+simd -O3 -pthread -Wall -O3 -DNDEBUG -std=gnu++11 -arch arm64
+CXX_FLAGS =  -march=armv8-a+simd -O3 -pthread -Wall -std=gnu++11 -arch arm64
 
