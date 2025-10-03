@@ -14,35 +14,21 @@ jobs:
         include:
           # Linux builds
           - os: ubuntu-22.04
-            build-system: cmake
-            arch: x86_64
-            cc: gcc-11
-            cxx: g++-11
-          - os: ubuntu-22.04
-            build-system: makefile
             arch: x86_64
             cc: gcc-11
             cxx: g++-11
           - os: ubuntu-20.04
-            build-system: cmake
             arch: x86_64
             cc: clang-12
             cxx: clang++-12
 
           # macOS builds
           - os: macos-13
-            build-system: cmake
             arch: x86_64
             cc: clang
             cxx: clang++
           - os: macos-14
-            build-system: cmake
             arch: arm64
-            cc: clang
-            cxx: clang++
-          - os: macos-13
-            build-system: makefile
-            arch: x86_64
             cc: clang
             cxx: clang++
 
@@ -78,13 +64,11 @@ jobs:
         echo "OS: $(uname -a)"
         echo "Compiler: ${{ matrix.cc }} / ${{ matrix.cxx }}"
         echo "Architecture: ${{ matrix.arch }}"
-        echo "Build system: ${{ matrix.build-system }}"
         ${{ matrix.cc }} --version || true
         ${{ matrix.cxx }} --version || true
         cmake --version || true
 
     - name: Build with CMake
-      if: matrix.build-system == 'cmake'
       run: |
         cd src
         mkdir -p build
@@ -92,36 +76,7 @@ jobs:
         cmake .. -DCMAKE_BUILD_TYPE=Release
         make -j$(nproc 2>/dev/null || sysctl -n hw.ncpu 2>/dev/null || echo 4)
 
-    - name: Build with Makefile (Linux)
-      if: matrix.build-system == 'makefile' && runner.os == 'Linux'
-      run: |
-        cd src
-        make -f Makefile.generated clean || true
-        make -f Makefile.generated -j$(nproc)
-
-    - name: Build with Makefile (macOS)
-      if: matrix.build-system == 'makefile' && runner.os == 'macOS'
-      run: |
-        cd src
-        # Use the native build script for macOS
-        chmod +x make_native.bash
-        ./make_native.bash
-
-    - name: Test executable (CMake)
-      if: matrix.build-system == 'cmake'
-      run: |
-        if [ -f bin/reseek ]; then
-          echo "Binary exists and is executable:"
-          ls -la bin/reseek
-          file bin/reseek
-          ldd bin/reseek 2>/dev/null || otool -L bin/reseek 2>/dev/null || true
-        else
-          echo "Binary not found in expected location"
-          find . -name "reseek" -type f 2>/dev/null || echo "No reseek binary found"
-        fi
-
-    - name: Test executable (Makefile)
-      if: matrix.build-system == 'makefile'
+    - name: Test executable
       run: |
         if [ -f bin/reseek ]; then
           echo "Binary exists and is executable:"
@@ -148,7 +103,7 @@ jobs:
       uses: actions/upload-artifact@v4
       if: success()
       with:
-        name: reseek-${{ matrix.os }}-${{ matrix.arch }}-${{ matrix.build-system }}
+        name: reseek-${{ matrix.os }}-${{ matrix.arch }}
         path: |
           bin/reseek*
           src/build/reseek*
