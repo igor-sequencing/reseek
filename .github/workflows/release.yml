@@ -1,0 +1,91 @@
+name: Release Builds
+
+on:
+  release:
+    types: [created]
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: 'Tag name for release'
+        required: true
+        default: 'v1.0.0'
+
+jobs:
+  release-builds:
+    strategy:
+      matrix:
+        include:
+          - os: ubuntu-22.04
+            target: linux-x86_64
+            cc: gcc-11
+            cxx: g++-11
+          - os: macos-13
+            target: macos-x86_64
+            cc: clang
+            cxx: clang++
+          - os: macos-14
+            target: macos-arm64
+            cc: clang
+            cxx: clang++
+
+    runs-on: ${{ matrix.os }}
+
+    env:
+      CC: ${{ matrix.cc }}
+      CXX: ${{ matrix.cxx }}
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Install Linux dependencies
+      if: runner.os == 'Linux'
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y build-essential cmake zlib1g-dev pkg-config ${{ matrix.cc }} ${{ matrix.cxx }}
+
+    - name: Install macOS dependencies
+      if: runner.os == 'macOS'
+      run: |
+        brew install cmake zlib
+
+    - name: Build release binary
+      run: |
+        cd src
+        mkdir -p build
+        cd build
+        cmake .. -DCMAKE_BUILD_TYPE=Release
+        make -j$(nproc 2>/dev/null || sysctl -n hw.ncpu 2>/dev/null || echo 4)
+
+        # Verify binary
+        if [ -f ../bin/reseek ]; then
+          echo "Build successful!"
+          ls -la ../bin/reseek
+          file ../bin/reseek
+        else
+          echo "Build failed - binary not found"
+          exit 1
+        fi
+
+    - name: Create release archive
+      run: |
+        cd bin
+        tar -czf reseek-${{ matrix.target }}.tar.gz reseek
+        ls -la reseek-${{ matrix.target }}.tar.gz
+
+    - name: Upload release artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: reseek-${{ matrix.target }}
+        path: bin/reseek-${{ matrix.target }}.tar.gz
+
+    - name: Upload to release (if release event)
+      if: github.event_name == 'release'
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ github.event.release.upload_url }}
+        asset_path: bin/reseek-${{ matrix.target }}.tar.gz
+        asset_name: reseek-${{ matrix.target }}.tar.gz
+        asset_content_type: application/gzip
