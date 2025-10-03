@@ -23,6 +23,15 @@ tmp*
 test_output/
 github_releases/
 
+# CMake build directories
+build/
+src/build/
+**/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
 # User-specific files
 *.rsuser
 *.suo
