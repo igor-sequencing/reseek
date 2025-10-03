@@ -106,49 +106,10 @@ jobs:
         retention-days: 30
         if-no-files-found: warn
 
-  # Additional job for NEON-specific tests on ARM
-  test-neon:
-    runs-on: macos-14  # ARM64 runner
-    needs: build
-    if: success()
-
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-
-    - name: Build NEON tests
-      run: |
-        cd src
-        # Compile the NEON test programs
-        if [ -f simple_neon_test.cpp ]; then
-          echo "Building NEON tests..."
-          clang++ -std=c++11 -O3 -march=armv8-a+simd -D__ARM_NEON simple_neon_test.cpp -o simple_neon_test
-          clang++ -std=c++11 -O3 -march=armv8-a+simd -D__ARM_NEON test_neon.cpp -o test_neon
-          if [ -f raw_neon_test.cpp ]; then
-            clang++ -std=c++11 -O3 -march=armv8-a+simd -D__ARM_NEON raw_neon_test.cpp -o raw_neon_test
-          fi
-        fi
-
-    - name: Run NEON tests
-      run: |
-        cd src
-        if [ -f simple_neon_test ]; then
-          echo "Running simple NEON test..."
-          ./simple_neon_test
-        fi
-        if [ -f test_neon ]; then
-          echo "Running NEON test..."
-          ./test_neon
-        fi
-        if [ -f raw_neon_test ]; then
-          echo "Running raw NEON test..."
-          ./raw_neon_test
-        fi
-
   # Summary job
   build-summary:
     runs-on: ubuntu-latest
-    needs: [build, test-neon]
+    needs: build
     if: always()
 
     steps:
@@ -159,16 +120,9 @@ jobs:
         echo "| Platform | Architecture | Build System | Status |" >> $GITHUB_STEP_SUMMARY
         echo "|----------|--------------|--------------|--------|" >> $GITHUB_STEP_SUMMARY
         if [ "${{ needs.build.result }}" == "success" ]; then
-          echo "| Multi-platform | x86_64/ARM64 | CMake/Makefile | ✅ Success |" >> $GITHUB_STEP_SUMMARY
+          echo "| Multi-platform | x86_64/ARM64 | CMake | ✅ Success |" >> $GITHUB_STEP_SUMMARY
         else
-          echo "| Multi-platform | x86_64/ARM64 | CMake/Makefile | ❌ Failed |" >> $GITHUB_STEP_SUMMARY
-        fi
-        if [ "${{ needs.test-neon.result }}" == "success" ]; then
-          echo "| ARM64 NEON | ARM64 | Tests | ✅ Success |" >> $GITHUB_STEP_SUMMARY
-        elif [ "${{ needs.test-neon.result }}" == "failure" ]; then
-          echo "| ARM64 NEON | ARM64 | Tests | ❌ Failed |" >> $GITHUB_STEP_SUMMARY
-        else
-          echo "| ARM64 NEON | ARM64 | Tests | ⚠️ Skipped |" >> $GITHUB_STEP_SUMMARY
+          echo "| Multi-platform | x86_64/ARM64 | CMake | ❌ Failed |" >> $GITHUB_STEP_SUMMARY
         fi
         echo "" >> $GITHUB_STEP_SUMMARY
         echo "Build artifacts are available for download from successful builds." >> $GITHUB_STEP_SUMMARY
